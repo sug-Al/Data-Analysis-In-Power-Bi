@@ -8,4 +8,4 @@ Following are the objectives of this project in Power BI Desktop:
 3. To create key visuals or dashboards so that raw data provides necessary information for making decisions in business.
 
 ## Data sets
-<a href="https://github.com/sug-Al/Data-Analysis-In-Power-Bi/tree/main/Excel%20Datasets">Excel Sheets</>
+<a href="https://github.com/sug-Al/Data-Analysis-In-Power-Bi/tree/main/Excel%20Datasets">Excel Sheets</a>
