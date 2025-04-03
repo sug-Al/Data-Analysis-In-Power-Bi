@@ -9,3 +9,6 @@ Following are the objectives of this project in Power BI Desktop:
 
 ## Data sets
 <a href="https://github.com/sug-Al/Data-Analysis-In-Power-Bi/tree/main/Excel%20Datasets">Excel Sheets</a>
+
+## Credit
+<a href=https://www.youtube.com/watch?v=g0m5sEHPU-s&list=PLUaB-1hjhk8HqnmK0gQhfmIdCbxwoAoys>Alex The Analyst</a>
