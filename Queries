@@ -1,0 +1,14 @@
+# Apocolypse Sales
+Half Year = YEAR('Apocolypse Sales'[Date Purchased]) & " " & IF(MONTH('Apocolypse Sales'[Date Purchased]) <= 6, "H1", "H2")
+Sales count = COUNT('Apocolypse Sales'[Order ID])
+Day of week = WEEKDAY('Apocolypse Sales'[Date Purchased], 2)
+Order_Size = IF('Apocolypse Sales'[Units Sold]>25, "Big Order", "Small Order")
+
+# Apocolypse Store
+Count of Products = COUNT('Apocolypse Sales'[Order ID])
+Profit = (SUMX(
+        'Apocolypse Sales',
+        'Apocolypse Sales'[Units Sold] * 
+        (RELATED('Apocolypse Store'[Price]) - RELATED('Apocolypse Store'[Production Cost]))
+    ))
+Profit_Column = CALCULATE(SUMX('Apocolypse Sales', 'Apocolypse Sales'[Units Sold] * (RELATED('Apocolypse Store'[Price]) - RELATED('Apocolypse Store'[Production Cost]))))
