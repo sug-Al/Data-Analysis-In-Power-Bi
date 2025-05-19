@@ -1,5 +1,5 @@
 # Data-Analysis-In-Power-Bi
-This is a learning project in Power BI Desktop in which there are multiple tables and dashboards to view and analyse the data. This project involved data preprocessing, data cleaning and data visualization.
+This is a project in Power BI Desktop in which there are multiple tables with relationships and dashboards to view and analyse the data. This project involved data preprocessing, data cleaning and data visualization.
 
 ## Project Objectives:
 Following are the objectives of this project in Power BI Desktop:
